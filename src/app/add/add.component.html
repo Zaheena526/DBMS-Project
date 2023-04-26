@@ -1,0 +1,20 @@
+<form   class="col-md-4 "  #addform="ngForm"   (ngSubmit)="addProduct(addform.value)"   >
+    <div class="form-group">
+      <label>ROOM NO</label>
+      <input type="text" class="form-control" name="rno"  ngModel placeholder="Enter Room No">
+      
+    </div>
+    <div class="form-group">
+      <label >Room Type</label>
+      <input type="text" class="form-control"  name="roomtype" ngModel placeholder="Room Type">
+    </div>
+
+    <div class="form-group">
+        <label >PRICE</label>
+        <input type="price" class="form-control"  name="price"  ngModel placeholder="Room Price">
+      </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  

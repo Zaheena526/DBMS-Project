@@ -1,0 +1,21 @@
+
+<form   class="col-md-4 "  #updateform="ngForm"   (ngSubmit)="updateProduct(updateform.value)"   >
+    <div class="form-group">
+      <label>Room Number</label>
+      <input type="text" class="form-control" name="room number"  ngModel placeholder="Enter Rno">
+      
+    </div>
+    <div class="form-group">
+      <label >Room Type</label>
+      <input type="text" class="form-control"  name="room type" ngModel placeholder="Enter Room Type">
+    </div>
+
+    <div class="form-group">
+        <label >PRICE</label>
+        <input type="price" class="form-control"  name="price"  ngModel placeholder="Room Price">
+      </div>
+
+
+    <button type="submit" class="btn btn-success">Update</button>
+  </form>
+  

@@ -1,0 +1,20 @@
+
+<table class="table table-dark  col-md-10">
+
+    <tr> 
+    <th>Food Id</th>
+    <th>Food Name</th>
+    <th>Food Type</th>
+    <th>Price</th> </tr>
+
+    <tr *ngFor="let food of foodList">
+
+            <td>{{food.id}}</td>
+            <td>{{food.name}}</td>
+            <td>{{food.type}}</td>
+            <td>{{food.price}}</td>
+
+    </tr>
+
+
+    </table> 
